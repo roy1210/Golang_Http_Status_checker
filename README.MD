@@ -6,7 +6,7 @@ Able to detect if website is downed due to http request returns 404.
 ![preview](./checker.jpg)
 
 ### Step 1. 
-Clone this project.
+Clone this repository.
 
 
 ### Step 2.
