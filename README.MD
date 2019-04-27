@@ -26,7 +26,7 @@ func main() {
 ### Step 2. 
 
 ```
-$ cd channels-http
+$ cd httpStatusChecker
 
 $ run main.go
 ```
