@@ -1,15 +1,16 @@
 # HTTP status checker
 
+## Description
+
 Check the current status of website.
 Able to detect if website is downed due to http request returns 404.
 
-![preview](./checker.jpg)
+**_DEMO:_**
 
-### Step 1. 
-Clone this repository.
+<img src="./checker.jpg" width="80%">
 
+## Usage
 
-### Step 2.
 open main.go and add URL for status checking website in `links` slice.
 
 ```
@@ -23,13 +24,17 @@ func main() {
 		"http://amazon.com",
 	}
 ```
-### Step 2. 
 
-```
-$ cd httpStatusChecker
+then run: `$ run main.go`
 
-$ run main.go
-```
+## Requirement
 
-### Require
-Install Golang to run this program.
+- Golang
+
+## Licence
+
+[MIT](./LICENSE.txt)
+
+## Author
+
+[Shoe Kure](https://github.com/roy1210)
